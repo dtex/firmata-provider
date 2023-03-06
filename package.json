@@ -1,0 +1,23 @@
+{
+  "name": "firmata-provider",
+  "version": "0.0.1",
+  "description": "A TC-53 conformant provider for node to control microcontrollers running firmata.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test --experimental-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtex/firmata-provider.git"
+  },
+  "author": "Donovan Buck <donovan@donovan.bz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtex/firmata-provider/issues"
+  },
+  "homepage": "https://github.com/dtex/firmata-provider#readme",
+  "dependencies": {
+    "firmata": "^2.2.0"
+  }
+}
